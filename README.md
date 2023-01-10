@@ -3,7 +3,7 @@
 ## TL;DR
 This dataset is a subset of [C4 data in TFDS](https://www.tensorflow.org/datasets/catalog/c4) that we can possibly train language models effectively with a small data size.
 
-The details of how to obtain the subset is described in our paper [Extracting Representative Subset from Extensive Text Data  for Training Pre-trained Language Models, Information Processing & Management (To appear: This link is currently to the journal homepage, not to the paper)](https://www.sciencedirect.com/journal/information-processing-and-management).
+The details of how to obtain the subset is described in our paper [Extracting Representative Subset from Extensive Text Data  for Training Pre-trained Language Models, Information Processing & Management (Accepted Dec 17, 2022, To appear: This link is currently to the journal homepage, not to the paper)](https://www.sciencedirect.com/journal/information-processing-and-management).
 
 ## Reason of providing this dataset
 Neural language models, which have been rapidly developed recently, are an essential technology that plays a fundamental role in the success of natural language processing (NLP) field.
