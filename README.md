@@ -3,7 +3,7 @@
 ## TL;DR
 
 This dataset is a subset of [C4 data in TFDS](https://www.tensorflow.org/datasets/catalog/c4), which might provide effective training of language models even if the data size is small.
-The detail of how we obtained the subset is described in our paper [Extracting Representative Subset from Extensive Text Data  for Training Pre-trained Language Models, Information Processing & Management (Accepted Dec 17, 2022, To appear: This link is currently to the journal homepage, not to the paper)](https://www.sciencedirect.com/journal/information-processing-and-management)
+The detail of how we obtained the subset is described in our paper [Extracting Representative Subset from Extensive Text Data  for Training Pre-trained Language Models, Information Processing & Management, Volume 60, Issue 3, May 2023 (Accepted Dec 17, 2022)](https://www.sciencedirect.com/science/article/pii/S0306457322003508)
 
 
 ## Reason of providing this dataset
@@ -32,3 +32,22 @@ It is expected that more researchers will participate, and the field will develo
 We provide a list of URLs extracted from C4 data.
 A naive and straightforward way to use this dataset is to download a URL list and extract data from the original CommonCrawl dataset defined in C4.
 Another choice is to use the URL list via a slight modification of TFDS.
+
+
+## Citation
+Please cite as:
+
+``` bibtex
+@article{SUZUKI_IPM2023103249,
+  author = {Jun Suzuki and Heiga Zen and Hideto Kazawa},
+  title = {Extracting representative subset from extensive text data for training pre-trained language models},
+  journal = {Information Processing & Management},
+  volume = {60},
+  number = {3},
+  pages = {103249},
+  year = {2023},
+  issn = {0306-4573},
+  doi = {https://doi.org/10.1016/j.ipm.2022.103249},
+  url = {https://www.sciencedirect.com/science/article/pii/S0306457322003508},
+}
+```
